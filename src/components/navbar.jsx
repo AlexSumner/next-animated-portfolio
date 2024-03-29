@@ -36,10 +36,22 @@ const Navbar = () => {
         </Link>
       </div>
       {/* SOCIAL */}
-      <div className="hidden md:flex gap-4 w-1/3">
-        <Link href="/">
+      <div className="hidden md:flex gap-4 ">
+        <Link
+          href="https://github.com/AlexSumner"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Image src="/github.png" alt="" width={24} height={24} />
+        </Link>
+        <Link href="/">
           <Image src="/instagram.png" alt="" width={24} height={24} />
+        </Link>
+        <Link
+          href="https://www.linkedin.com/in/alexis-araujo-217026244/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Image src="/linkedin.png" alt="" width={24} height={24} />
         </Link>
       </div>
